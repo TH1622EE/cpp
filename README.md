@@ -16,7 +16,7 @@ The following table is consisten with my current Windows 11 system configuration
 
 ### Downloading and Installing MSYS2
 
-To install the *g++* and *gcc* compiler, as well as the *gdb* debugger on our Windows system we will use MSYS2 using the following steps:
+To install the `g++` and `gcc` compiler, as well as the `gdb` debugger on our Windows system we will use MSYS2 using the following steps:
 
 1. Select the highlighted [MSYS2](https://www.msys2.org/) hyperlink to navigate to the MSYS2 page.
 2. Scroll down to the **Installation** section and double-click the most current executable for download. At the time of my writing this it is [msys2-x86_64-20231026.exe](https://github.com/msys2/msys2-installer/releases/download/2023-10-26/msys2-x86_64-20231026.exe). **IF YOU SELECT THE HYPERLINK IN STEP 2 IT WILL AUTOMATICALLY DOWNLOAD THE EXECUTABLE I USED WHEN CREATING THESE STEPS!**
