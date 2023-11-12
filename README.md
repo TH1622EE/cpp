@@ -16,12 +16,12 @@ The following table is consisten with my current Windows 11 system configuration
 
 ### Downloading and Installing MSYS2
 
-To install the `g++` and `gcc` compiler, as well as the `gdb` debugger on our Windows system we will use MSYS2 using the following steps:
+To install the *g++* and *gcc* compiler, as well as the *gdb* debugger on our Windows system we will use MSYS2 using the following steps:
 
 1. Select the highlighted [MSYS2](https://www.msys2.org/) hyperlink to navigate to the MSYS2 page.
 2. Scroll down to the **Installation** section and double-click the most current executable for download. At the time of my writing this it is [msys2-x86_64-20231026.exe](https://github.com/msys2/msys2-installer/releases/download/2023-10-26/msys2-x86_64-20231026.exe). **IF YOU SELECT THE HYPERLINK IN STEP 2 IT WILL AUTOMATICALLY DOWNLOAD THE EXECUTABLE I USED WHEN CREATING THESE STEPS!**
 3. Navigate to the directory where the download is stored and double-click the executable to run the MSYS2 installer.
-4. When the *MSYS2 Setup* pop-up appears you will be on the *Welcome* screen. Simply click `Next` to continue with the installation.
+4. When the *MSYS2 Setup* pop-up appears you will be on the *Welcome* screen. Simply click *Next* to continue with the installation.
 5. The default location will be *C:\msys64* but you can select the *Browse...* button if you would like to change the location the installer is stored. Unless you have a specific reason for doing so, simply click *Next* to install in the default path.
 6. The next screen will be the *Start Menu Shortcuts* which provides information on what this does, but I simply leave it as the default value (e.g., MYSYS2) and select *Next*.
 7. The *Installing* screen will appear to display the progress of your installation. You do not need to do anything on this screen as it will automatically switch to the *Finished* section of the installer prompt, then deselect the option to *Run MSYS2 now.*, and select *Finish*.
