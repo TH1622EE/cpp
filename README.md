@@ -1,4 +1,8 @@
-# Introduction
+# My C++ Reference
+
+<p align="center"><img src=data/images/cpp-logo-1.png width="400" /></p>
+
+## Introduction
 
 This repository was created as a reference point for myself and tutorial for others who are moderately proficient and/or newbies to C++ programming. The purpose of this particular README.md file is to explain how to setup your system to utilize the greatest code editor on the planet (i.e., *Visual Studio Code*) in Windows, macOS, and Ubuntu operating systems. After the setup sections of the different architectures there will be an explanation of the directory structure of the remainder of the repository. In this reference/tutorial we will primarily focus on utilizing a GNU *gcc* and/or *g++* compiler to execute our programs from the command line. We will only briefly scratch the surface of CMake to demonstrate the efficiency of using CMake as a build system for our C++ program(s).
 
