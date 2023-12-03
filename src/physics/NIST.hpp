@@ -5,7 +5,7 @@
  **********************************************************************************************************************
  Author:    Tim Holden
  Date:      November 14, 2023
- Repo:      https://github.com/Earth-Worm-Tim/cpp
+ Repo:      https://github.com/TH1622EE/cpp
  **********************************************************************************************************************
 */
 
@@ -18,7 +18,6 @@ public:
     const long double SPEED_OF_LIGHT_IN_VACUUM = 2.99792458e8; //Units of m s^-1
     const long double NEWTONIAN_CONST_OF_GRAVITATION = 6.6743015e-11; //Units of m^3 kg^-1 s^-2
     const long double PLANK_CONST = 6.2607015e-34; //Units of J Hz^-1
-
 };
 
 #endif
