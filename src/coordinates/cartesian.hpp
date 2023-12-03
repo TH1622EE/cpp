@@ -1,5 +1,5 @@
-#ifndef COORDINATES_HPP
-#define COORDINATES_HPP
+#ifndef CARTESIAN_HPP
+#define CARTESIAN_HPP
 
 class Cartesian {
 
@@ -19,9 +19,9 @@ public:
     void set_y(double y);
     void set_z(double z);
 
-    double get_x();
-    double get_y();
-    double get_z();
+    double get_x() const;
+    double get_y() const;
+    double get_z() const;
 
     double calc_mag();
 

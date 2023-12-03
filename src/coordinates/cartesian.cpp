@@ -1,7 +1,4 @@
 #include "cartesian.hpp"
-
-#include <complex>
-#include <numbers>
 #include <cmath>
 
 Cartesian::Cartesian(){
@@ -34,19 +31,19 @@ void Cartesian::set_z(double z){
     _z = z;
 }
 
-double Cartesian::get_x(){
+double Cartesian::get_x() const{
     return _x;
 }
 
-double Cartesian::get_y(){
+double Cartesian::get_y() const{
     return _y;
 }
 
-double Cartesian::get_z(){
+double Cartesian::get_z() const{
     return _z;
 }
 
 double Cartesian::calc_mag(){
-    double mag = sqrt(pow(_x,2)+pow(_y,2)+pow(_z,2));
+    double mag = std::sqrt(std::pow(Cartesian::get_x(),2) + std::pow(Cartesian::get_y(),2) + std::pow(Cartesian::get_z(),2));
     return mag;
 }
