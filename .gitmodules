@@ -1,3 +1,6 @@
 [submodule "submodules/C-Plus-Plus"]
 	path = submodules/C-Plus-Plus
 	url = https://github.com/TheAlgorithms/C-Plus-Plus
+[submodule "submodules/cpp-cheat-sheet"]
+	path = submodules/cpp-cheat-sheet
+	url = https://github.com/gibsjose/cpp-cheat-sheet
