@@ -31,16 +31,16 @@ void Coordinates::set_theta(double theta){
     _theta = theta;
 }
 
-void Coordinates::set_thetad(double thetad){
-    _thetad = thetad;
+void Coordinates::set_thetaDeg(double thetaDeg){
+    _thetaDeg = thetaDeg;
 }
 
 void Coordinates::set_phi(double phi){
     _phi = phi;
 }
 
-void Coordinates::set_phid(double phid){
-    _phid = phid;
+void Coordinates::set_phiDeg(double phiDeg){
+    _phiDeg = phiDeg;
 }
 
 double Coordinates::get_x() const{
@@ -63,34 +63,34 @@ double Coordinates::get_theta() const{
     return _theta;
 }
 
-double Coordinates::get_thetad() const{
-    return _thetad;
+double Coordinates::get_thetaDeg() const{
+    return _thetaDeg;
 }
 
 double Coordinates::get_phi() const{
     return _phi;
 }
 
-double Coordinates::get_phid() const{
-    return _phid;
+double Coordinates::get_phiDeg() const{
+    return _phiDeg;
 }
 
-void Coordinates::calcMag(){
+double Coordinates::calcMag(){
     _r = std::sqrt(std::pow(Coordinates::get_x(),2) + std::pow(Coordinates::get_y(),2) + std::pow(Coordinates::get_z(),2));
 }
 
-void Coordinates::calcTheta(){
+double Coordinates::calcTheta(){
     _theta = std::atan2(Coordinates::get_y(),Coordinates::get_x());
 }
 
-void Coordinates::calcThetad(){
-    _thetad = std::atan2(Coordinates::get_y(),Coordinates::get_x())*180/std::numbers::pi;
+double Coordinates::calcThetaDeg(){
+    _thetaDeg = std::atan2(Coordinates::get_y(),Coordinates::get_x())*180/std::numbers::pi;
 }
 
-void Coordinates::calcPhi(){
+double Coordinates::calcPhi(){
     _phi = std::acos(Coordinates::get_z()/std::sqrt(std::pow(Coordinates::get_x(),2) + std::pow(Coordinates::get_y(),2) + std::pow(Coordinates::get_z(),2)));
 }
 
-void Coordinates::calcPhid(){
-    _phid = std::acos(Coordinates::get_z()/std::sqrt(std::pow(Coordinates::get_x(),2) + std::pow(Coordinates::get_y(),2) + std::pow(Coordinates::get_z(),2)))*180/std::numbers::pi;
+double Coordinates::calcPhiDeg(){
+    _phiDeg = std::acos(Coordinates::get_z()/std::sqrt(std::pow(Coordinates::get_x(),2) + std::pow(Coordinates::get_y(),2) + std::pow(Coordinates::get_z(),2)))*180/std::numbers::pi;
 }

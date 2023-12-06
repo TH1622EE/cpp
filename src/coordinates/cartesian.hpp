@@ -8,6 +8,8 @@ class Cartesian : public Coordinates{
 public:
 
     Cartesian();
+    Cartesian(double, double);
+    Cartesian(double, double, double);
 
 };
 

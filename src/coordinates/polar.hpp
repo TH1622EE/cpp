@@ -8,7 +8,7 @@ class Polar : public Cartesian{
 public:
 
     Polar();
-    Polar(double r, double theta);
+    Polar(double, double);
 
 };
 
