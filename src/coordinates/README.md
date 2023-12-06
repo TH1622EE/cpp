@@ -6,12 +6,8 @@ The *Coordinates* class was created as a base class for the *Polar*, *Cylindrica
 
 It is important to note the mathematical convention for angular values was used meaning the value of **\theta** is the azimuthal angle (i.e., the angular value of the radial vector off the x-axis in the x-y plane), and the value of **\phi** is the **Polar** angle (i.e., the angular value of the radial vector off the z-axis). This can be very confusing when not clarified given that the Physics convention is to use $\theta$ as the polar angle, and $\phi$ as the azimuthal angle. Furthermore, the value of `r` is used to represent both the radial distance vector in *Polar* coordinates, as well as the conventional value of $\rho$ common to *Cylindrical* and *Spherical* coordinates. The following is a visual example acquired from [this](https://en.wikipedia.org/wiki/Spherical_coordinate_system#:~:text=The%20mathematics%20convention.) link which will elaborate further on the variations between the Mathematics and Physics conventions.
 
-<style>
-  p {color:white;}
-  .invert_effect {filter: invert(100%);}
-</style>
 <p align="center">
-  <img class="invert_effect" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/3D_Spherical_2.svg/1920px-3D_Spherical_2.svg.png" width="700" />
+  <img src="../../data/images/1280px-3D_Spherical_2_inverted.svg.png" />
 </p>
 
 ## Explanations of Implementation
